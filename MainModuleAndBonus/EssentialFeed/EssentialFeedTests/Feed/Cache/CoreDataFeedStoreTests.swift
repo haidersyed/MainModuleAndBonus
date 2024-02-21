@@ -72,7 +72,6 @@ class CoreDataFeedStoreTests: XCTestCase, FeedStoreSpecs {
 		assertThatDeleteEmptiesPreviouslyInsertedCache(on: sut)
 	}
 
-
 	// - MARK: Helpers
 
 	private func makeSUT(file: StaticString = #filePath, line: UInt = #line) -> FeedStore {
